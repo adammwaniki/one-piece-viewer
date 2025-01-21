@@ -14,6 +14,7 @@ export default function App() {
   return (
     <div>
       <BrowserRouter>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/character" element={<Characters />}>
