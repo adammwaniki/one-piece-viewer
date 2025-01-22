@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router'
 import luffy_silhoutte from '../assets/images/luffy_silhoutte.svg'
 
 export default function Homepage() {
@@ -15,15 +16,15 @@ export default function Homepage() {
       </section>
       
       <section className="grid-flow-col grid gap-3">
-        <button className="text-[clamp(1rem,2.5vw,2rem)] font-bold"> {/*Text automatically scales using clamp() function: minimum 1rem, preferred 2.5vw, maximum 2rem */}
+        <NavLink to="/character" className="text-[clamp(1rem,2.5vw,2rem)] font-bold"> {/*Text automatically scales using clamp() function: minimum 1rem, preferred 2.5vw, maximum 2rem */}
           Characters
-        </button>
-        <button className="text-[clamp(1rem,2.5vw,2rem)] font-bold"> {/*Text automatically scales using clamp() function: minimum 1rem, preferred 2.5vw, maximum 2rem */}
+        </NavLink>
+        <NavLink to="/crew" className="text-[clamp(1rem,2.5vw,2rem)] font-bold"> {/*Text automatically scales using clamp() function: minimum 1rem, preferred 2.5vw, maximum 2rem */}
           Crews
-        </button>
-        <button className="text-[clamp(1rem,2.5vw,2rem)] font-bold"> {/*Text automatically scales using clamp() function: minimum 1rem, preferred 2.5vw, maximum 2rem */}
+        </NavLink>
+        <NavLink to="/character" className="text-[clamp(1rem,2.5vw,2rem)] font-bold"> {/*Text automatically scales using clamp() function: minimum 1rem, preferred 2.5vw, maximum 2rem */}
           Devil Fruits
-        </button>
+        </NavLink>
       </section>
     </main>
   )
