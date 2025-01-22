@@ -22,7 +22,7 @@ export default function Homepage() {
         <NavLink to="/crew" className="text-[clamp(1rem,2.5vw,2rem)] font-bold"> {/*Text automatically scales using clamp() function: minimum 1rem, preferred 2.5vw, maximum 2rem */}
           Crews
         </NavLink>
-        <NavLink to="/character" className="text-[clamp(1rem,2.5vw,2rem)] font-bold"> {/*Text automatically scales using clamp() function: minimum 1rem, preferred 2.5vw, maximum 2rem */}
+        <NavLink to="/devilfruit" className="text-[clamp(1rem,2.5vw,2rem)] font-bold"> {/*Text automatically scales using clamp() function: minimum 1rem, preferred 2.5vw, maximum 2rem */}
           Devil Fruits
         </NavLink>
       </section>
