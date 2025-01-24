@@ -11,7 +11,7 @@ export default function Navbar() {
   const isHomePage = location.pathname === "/"
 
   return (
-    <nav className="flex justify-between items-center p-3">
+    <nav className="flex justify-between items-center p-3  ">
       <div className="flex items-center">
         <NavLink to="/">
           <img 

@@ -12,7 +12,7 @@ import Devilfruits from "./pages/Devilfruits";
 
 export default function App() {
   return (
-    <div>
+    <div className="bg-[#e8e8e8] max-h-svh min-h-svh w-full">
       <BrowserRouter>
         <Navbar />
         <Routes>
